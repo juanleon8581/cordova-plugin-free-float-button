@@ -1,0 +1,13 @@
+{
+  "name": "cordova-plugin-free-float-button",
+  "lockfileVersion": 2,
+  "requires": true,
+  "version": "0.0.1",
+  "description": "Get a float button with free movement on the screen",
+  "license": "MIT",
+  "repository": "juanleon8581/cordova-plugin-free-float-button",
+  "author": {
+    "name": "ardat"
+  },
+  "devDependencies": {}
+}
