@@ -6,7 +6,7 @@ To use it you must do the following:
 ### **Installation**
 
 ```bash
-cordova plugin add free-float-button
+cordova plugin add https://github.com/juanleon8581/cordova-plugin-free-float-button
 ```
 
 ### Params
