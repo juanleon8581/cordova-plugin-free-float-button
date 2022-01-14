@@ -6,19 +6,20 @@ To use it you must do the following:
 ### **Installation**
 
 ```bash
-cordova plugin add https://github.com/juanleon8581/cordova-plugin-free-float-button
+cordova plugin add free-float-button
 ```
 
 ### Params
 
 elm --> html element to which the movement will be given.
 zIndex --> z-index value that the button will have as needed.
+corner --> false or true, it is responsible for setting the parameterization of the button cornering on the X axis
 
 ### how to use?
 
 ```jsx
 let elm = document.getElementById('anyid')
 let zIndex = 1000
-let anyVar = new cordova.plugins.freeFloatButton.FloatFreeButton(elm,zIndex)
+let anyVar = new cordova.plugins.freeFloatButton.FloatFreeButton(elm,zIndex,true)
 anyVar.goMoveIt(anyVar)
 ```
